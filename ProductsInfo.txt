@@ -1,0 +1,69 @@
+IDProducto;NombreProducto;PrecioPorUnidadProducto
+1;Clasificadores Antideslizante;15340
+2;Bolígrafo Ligero;48220
+3;Corrector líquido Borrado fácil;69031
+4;Post-it Fácil de transportar;74977
+5;Perforadora A prueba de agua;2775
+6;Cuaderno Ligero;98837
+7;Lápices de colores Duradero;86471
+8;Puntero láser A prueba de agua;94660
+9;Pegamento Duradero;80497
+10;Puntero láser Duradero;82284
+11;Rotulador permanente Colores vibrantes;16069
+12;Marcadores No mancha;31275
+13;Goma de borrar Ligero;79224
+14;Cinta correctora Multifuncional;6424
+15;Rotuladores Diseño ergonómico;41248
+16;Rotulador permanente Libre de ácido;24884
+17;Sellos Económico;15719
+18;Cartulina No mancha;19574
+19;Rotulador permanente Reciclable;81308
+20;Tabla de cortar Antideslizante;89731
+21;Papelera Brilloso;47237
+22;Perforadora Brilloso;16751
+23;Pincel A prueba de agua;100997
+24;Marcadores Ligero;31919
+25;Sellos Fácil de transportar;25839
+26;Bolígrafo de gel Sin olor;18818
+27;Clasificadores Colores vibrantes;8004
+28;Pluma Colores vibrantes;95471
+29;Lápiz Sin olor;33993
+30;Papel No tóxico;54303
+31;Resaltador Borrado fácil;58897
+32;Cinta correctora Sin olor;98249
+33;Regla Económico;74344
+34;Post-it Diseño ergonómico;31551
+35;Papel de carta Duradero;24574
+36;Post-it Económico;78652
+37;Plastificadora Brilloso;81209
+38;Carpeta Ecológico;74933
+39;Grapadora Ecológico;49995
+40;Puntero láser Diseño ergonómico;11608
+41;Sellos Duradero;19060
+42;Caja de cartón Reciclable;12971
+43;Marcadores Reciclable;79795
+44;Bolígrafo de gel Colores vibrantes;68118
+45;Pegamento Borrado fácil;34179
+46;Resaltador Suave al tacto;48540
+47;Cinta adhesiva Ecológico;11282
+48;Bolígrafo de gel Resistente a la rotura;86443
+49;Cinta adhesiva Compacto;29639
+50;Portaminas Suave al tacto;11706
+51;Tiza A prueba de agua;79431
+52;Regla Ecológico;94995
+53;Clips Multifuncional;40922
+54;Cartuchos de tinta Fácil de transportar;94305
+55;Tabla de cortar Sin olor;74651
+56;Cuaderno Reciclable;77099
+57;Goma de borrar Multifuncional;99719
+58;Clips Ecológico;92017
+59;Papelera Brilloso;43421
+60;Block de notas Reciclable;96014
+61;Rotuladores No tóxico;86839
+62;Sellos Duradero;34486
+63;Pincel Borrado fácil;24351
+64;Pluma Alta calidad;4955
+65;Portaminas No tóxico;91671
+66;Grapadora Compacto;66936
+67;Agenda Borrado fácil;27764
+68;Tiza Reciclable;51300

@@ -52,19 +52,15 @@ public class GenerateInfoFiles {
 		//initializes a BufferedWriter to write to the SalesMenInfo.txt file
   	try (BufferedWriter writer = new BufferedWriter(new FileWriter("SalesMenInfo.txt"))) {
   		long lastNumber=0;
+  		/*the first line i=0 corresponds to the headers of the .txt file
+      	 * DocumentType,DocumentId,FirstName,LastName*/
+      	sellerInfo="TipoDocumento;NúmeroDocumento;NombresVendedor;ApellidosVendedor";
+      	//write headers to file
+      	writer.write(sellerInfo);
   		/*cycle to create instances of the seller class, the condition for continuing the cycle is 
   		 * that i is less than the random number obtained in qEmployees.*/ 
   	    for (int i=0;i<qEmployees;i++) {
   	    	Seller seller=new Seller();
-  	        if(i==0) {	
-  	        	/*the first line i=0 corresponds to the headers of the .txt file
-  	        	 * DocumentType,DocumentId,FirstName,LastName*/
-  	        	sellerInfo="TipoDocumento;NúmeroDocumento;NombresVendedor;ApellidosVendedor";
-  	        	//write headers to file
-  	        	writer.write(sellerInfo);
-  	        	//write line break to file
-  	        	writer.newLine();
-  	        }else
   	        	//i!=1 are no longer headers, the sellers' personal data is written to the file
   	        	writer.newLine();
   	        	//get a random document type
@@ -140,7 +136,7 @@ public class GenerateInfoFiles {
 		String orderInfo=null;
 		/*generates a random number to define how many order orders will be generated, this number is divided into two depending on how
 		 *  many sellers were previously created*/
-		int qOrders =(int) salesMenList.size()/2;
+		int qOrders =(int) salesMenList.size();
 		/*Through a cycle, create the number of orders, each order is associated with the ID number of a seller, which is selected randomly 
 		 * in the arraylist of sellers previously created, for this we send the ArrayList as a parameter.
 		 */
@@ -163,7 +159,7 @@ public class GenerateInfoFiles {
     	    		/*prepares the line to write to the file and the line is 
     	    		 * written to the file and then a line break
     	    		 */
-    	    		orderInfo=randomNumber.randomIdProduct(productList)+";"+randomNumber.qProductPerOrder();
+    	    		orderInfo=randomNumber.randomIdProduct(productList) +";"+randomNumber.qProductPerOrder();
     	    		writer.write(orderInfo);
     	    		writer.newLine();
     	    	}

@@ -15,23 +15,23 @@ public class GenerateSalesReport {
 		ArrayList<String> numsProduct = new ArrayList<String>(); 
 		// Create an ArrayList object
 		ArrayList<String> numsProductOrder = new ArrayList<String>(); 
-		// Crear un mapa para almacenar el id y el precio del producto
+		// Create a map to store the product id and price
         Map<String, Integer> productsPrice = new HashMap<>();
-		// Crear un mapa para almacenar el nombre del vendedor
+		// Create a map to store the seller name
         Map<String, String> namesSeller = new HashMap<>();
-		// Crear un mapa para almacenar el nombre del vendedor y su cantidad de ventas desordenado
+		// Create a map to store the seller's name and their sales amount out of order
         Map<String, Integer> sellerSales = new HashMap<>();
-		// Crear un mapa para almacenar el nombre del vendedor y su cantidad de ventas ordenado
+		// Create a map to store the seller's name and sales amount neatly
         Map<String, Integer> sellerSalesOrder = new HashMap<>();
-		// Crear un mapa para almacenar el nombre del vendedor y su cantidad de ventas desordenado
+		// Create a map to store product name and sales amount out of order
         Map<String, Integer> productSales = new HashMap<>();
-		// Crear un mapa para almacenar el nombre del vendedor y su cantidad de ventas ordenado
+		// Create a map to store the product name and sales quantity orderly
         Map<String, Integer> productSalesOrder = new HashMap<>();
-		// Crear un mapa para almacenar el nombre del vendedor
+		// Create a map to store the product name
         Map<String, String> namesProduct = new HashMap<>();
-		// Leer archivos de ventas y actualizar el mapa
+		// Read sales, product and order files to update maps
         try {
-        	// Declaramos e inicializamos el contador
+        	// We declare and initialize the counter
         	int counterSeller = 0;
         	BufferedReader brSeller = new BufferedReader(new FileReader("SalesMenInfo.txt"));
         	String lineSeller;
@@ -39,18 +39,18 @@ public class GenerateSalesReport {
             while ((lineSeller = brSeller.readLine()) != null) {
             	String[] parts = lineSeller.split(";");
             	System.out.println(parts[0]);
-            	// Incrementamos el contador si corresponde
+            	// We increment the counter if appropriate
             	counterSeller++; 
-            	//Variable del id del vendedor
+            	//Seller id variable
             	String idSeller = parts[1];
             	numsSeller.add(idSeller);
-            	//Variable del nombre del vendedor
+            	//Seller name variable
             	String nameSeller = parts[2] + parts[3];
-            	//Guardar el nombre del vendedor en el diccionario
+            	//Save the seller's name to the dictionary
             	namesSeller.put(idSeller, nameSeller);
             	
             }
-         // Declaramos e inicializamos el contador
+         // We declare and initialize the counter
         	int counterProduct = 0;
         	BufferedReader brProduct = new BufferedReader(new FileReader("ProductsInfo.txt"));
         	String lineProduct;
@@ -58,21 +58,22 @@ public class GenerateSalesReport {
             while ((lineProduct = brProduct.readLine()) != null) {
             	String[] parts = lineProduct.split(";");
             	System.out.println(parts[0]);
-            	// Incrementamos el contador si corresponde
+            	// We increment the counter if appropriate
             	counterProduct++; 
             	String idProduct = parts[0];
             	numsProduct.add(idProduct);
                 int price = Integer.parseInt(parts[2]);
-            	// Guardamos precio por producto en el diccionario
+            	// We save price per product in the dictionary
             	productsPrice.put(idProduct, price);
             	productSales.put(idProduct, 0);
-            	//Variable del nombre del product
+            	//Product name variable
             	String nameProduct = parts[1];
-            	//Guardar el nombre del vendedor en el diccionario
+            	//save the seller's name in the dictionary
             	namesProduct.put(idProduct, nameProduct);
             	
             	
             }
+            //The order files that were generated randomly are reviewed.
             for (int i = 0; i < counterSeller; i++) {
             	BufferedReader brOrder = new BufferedReader(new FileReader("Orders/Order0" + i + ".txt"));
             	String lineOrder;
@@ -91,18 +92,18 @@ public class GenerateSalesReport {
                     	int moneyAmount = productPrice * productAmount;
                     	totalProduct = productSales.get(productsId) + productAmount;
                     	productSales.put(productsId, totalProduct);
-                    	// Incrementamos el total de las ventas del vendedor
+                    	// We increase the seller's total sales
                     	totalSales += moneyAmount;
                     	
                 	
                 }            	
                 
             }
-            // Guardamos el total ventar por vendedor en el diccionario
+            // We save the total sales per seller in the dictionary
             sellerSales.put(numSeller,totalSales);
         	}
             	
-            //Ordenar
+            //Sort seller csv file
             int max = 0;
             String id = "";
             for (int i = 0; i < counterSeller; i++) {
@@ -124,7 +125,7 @@ public class GenerateSalesReport {
 
             }
 
-            // Escribir el reporte  de vendedores en un archivo CSV
+            //Write the seller report to a CSV file
             BufferedWriter bwSeller = new BufferedWriter(new FileWriter("SalesReportInfo.csv"));
             for (int i = 0; i < counterSeller; i++) {
             	String idSeller = numsSellerOrder.get(i);
@@ -135,11 +136,11 @@ public class GenerateSalesReport {
             	bwSeller.write(nameSeller + ";" + totalSales + "\n");       	
             	}
             }
-            //Se cierra el reporte de ventas
+            //The sales report is closed
             bwSeller.close();
             
         	
-            //Ordenar products
+            //Sort product csv file
             max = 0;
             id = "";
             for (int i = 0; i < counterProduct; i++) {
@@ -161,7 +162,7 @@ public class GenerateSalesReport {
 
             }             
 
-            // Escribir el reporte  de productos  en un archivo CSV
+            // Write the product report to a CSV file
             BufferedWriter bwProduct = new BufferedWriter(new FileWriter("ProductsReportInfo.csv"));
             for (int i = 0; i < counterProduct; i++) {
             	String idProduct = numsProductOrder.get(i);
@@ -172,10 +173,11 @@ public class GenerateSalesReport {
             	bwProduct.write(nameProduct + ";" + totalProduct + "\n");       	
             	}
             }
-            //Se cierra el reporte de ventas
+            //The product report is closed
             bwProduct.close();
             
         } catch (IOException e) {
+        	//try catch exception
             e.printStackTrace();
         }
         

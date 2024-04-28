@@ -1,93 +1,64 @@
 IDProducto;NombreProducto;PrecioPorUnidadProducto
-1;Caja de cartón Ecológico;26947
-2;Goma de borrar Multifuncional;13224
-3;Grapas Multifuncional;90669
-4;Lápiz A prueba de agua;78222
-5;Regla Sin olor;84370
-6;Papelera A prueba de agua;93389
-7;Resaltador Libre de ácido;78011
-8;Borrador Ligero;28698
-9;Rotulador permanente Resistente a la rotura;65899
-10;Corrector líquido A prueba de agua;74922
-11;Clips Duradero;66353
-12;Pluma Duradero;18838
-13;Papelera Ligero;16179
-14;Carpeta Compacto;29908
-15;Cizalla Suave al tacto;65469
-16;Bandeja organizadora No tóxico;35196
-17;Perforadora No tóxico;27613
-18;Papelera Compacto;69877
-19;Marcadores Multifuncional;4744
-20;Rotuladores No tóxico;99155
-21;Pegamento Compacto;95057
-22;Corrector líquido No tóxico;66219
-23;Tijeras Resistente al desgaste;51735
-24;Block de notas Colores vibrantes;96574
-25;Goma de borrar Multifuncional;36630
-26;Papel de carta Fácil de transportar;87141
-27;Goma de borrar Suave al tacto;29786
-28;Sellos Sin olor;98676
-29;Borrador Ligero;79361
-30;Pizarra blanca No mancha;10947
-31;Puntero láser Duradero;18233
-32;Calculadora Económico;64461
-33;Carpeta clasificadora No tóxico;22533
-34;Cinta adhesiva Borrado fácil;12214
-35;Goma de borrar Económico;34429
-36;Encuadernadora Diseño ergonómico;15827
-37;Carpeta clasificadora Reciclable;33888
-38;Goma de borrar Sin olor;7395
-39;Plastificadora Resistente al desgaste;90697
-40;Cartuchos de tinta No tóxico;80540
-41;Puntero láser Suave al tacto;4246
-42;Borrador No mancha;89450
-43;Clasificadores Diseño ergonómico;91269
-44;Rotuladores Suave al tacto;5383
-45;Bolígrafo Resistente a la rotura;84646
-46;Corrector líquido Resistente al desgaste;77271
-47;Tijeras Alta calidad;84376
-48;Perforadora Diseño ergonómico;52002
-49;Clasificadores Reciclable;56767
-50;Calculadora Ecológico;55024
-51;Sellos No tóxico;12887
-52;Sellos Multifuncional;1409
-53;Perforadora Colores vibrantes;42174
-54;Puntero láser Económico;78930
-55;Grapas Libre de ácido;13210
-56;Carpeta clasificadora No tóxico;9562
-57;Pizarra blanca Borrado fácil;38841
-58;Perforadora No tóxico;84607
-59;Marcadores Libre de ácido;96682
-60;Etiquetas Sin olor;76085
-61;Sacapuntas Multifuncional;84445
-62;Marcadores Sin olor;36764
-63;Bolígrafo Sin olor;10244
-64;Carpeta Sin olor;10952
-65;Cinta adhesiva Fácil de transportar;85085
-66;Block de notas Resistente a la rotura;24875
-67;Borrador Suave al tacto;13932
-68;Portaminas Compacto;9826
-69;Puntero láser Ecológico;15352
-70;Clasificadores No tóxico;23377
-71;Marcadores Duradero;31548
-72;Regla Reciclable;77758
-73;Grapas Libre de ácido;91103
-74;Perforadora Compacto;3019
-75;Cinta correctora Resistente a la rotura;27880
-76;Bolígrafo de gel Borrado fácil;73070
-77;Lápices de colores Sin olor;39817
-78;Estuche Ligero;1194
-79;Block de notas A prueba de agua;40896
-80;Lápices de colores Colores vibrantes;78511
-81;Cinta adhesiva Fácil de transportar;45079
-82;Sacapuntas Borrado fácil;33360
-83;Agenda Suave al tacto;50588
-84;Puntero láser No mancha;45140
-85;Estuche No tóxico;21508
-86;Block de notas Libre de ácido;55142
-87;Clips Compacto;97487
-88;Plastificadora Económico;95914
-89;Pincel Brilloso;84380
-90;Bolígrafo de gel Colores vibrantes;65248
-91;Tijeras Fácil de transportar;73330
-92;Marcadores Reciclable;20559
+1;Rotulador permanente No tóxico;18404
+2;Marcadores Fácil de transportar;16500
+3;Bandeja organizadora Fácil de transportar;54813
+4;Grapadora Antideslizante;88279
+5;Cinta adhesiva Ecológico;44682
+6;Pegamento Resistente al desgaste;100232
+7;Goma de borrar Económico;72350
+8;Rotulador permanente Suave al tacto;64504
+9;Tijeras A prueba de agua;60639
+10;Portaminas Antideslizante;48657
+11;Cinta adhesiva Reciclable;90305
+12;Calculadora Diseño ergonómico;89737
+13;Pluma Ecológico;3800
+14;Tabla de cortar Reciclable;92965
+15;Cinta correctora Libre de ácido;3703
+16;Cartulina No mancha;97769
+17;Papel No mancha;58907
+18;Sellos Brilloso;16951
+19;Clips Multifuncional;93244
+20;Bolígrafo de gel Ligero;27207
+21;Grapas Diseño ergonómico;67443
+22;Cartuchos de tinta Resistente a la rotura;11907
+23;Post-it Resistente a la rotura;18446
+24;Tiza Suave al tacto;19915
+25;Block de notas Duradero;83976
+26;Sellos Multifuncional;11308
+27;Etiquetas Fácil de transportar;85249
+28;Calculadora Duradero;55172
+29;Cinta correctora Fácil de transportar;38931
+30;Carpeta Brilloso;33387
+31;Papel de carta Reciclable;19208
+32;Post-it No tóxico;83628
+33;Libreta Sin olor;42469
+34;Papel de carta Alta calidad;94921
+35;Cuaderno Duradero;27077
+36;Sacapuntas Ligero;99431
+37;Tijeras Antideslizante;17402
+38;Sellos Ligero;97944
+39;Cinta correctora Alta calidad;9335
+40;Sellos Fácil de transportar;16343
+41;Lápices de colores Alta calidad;80407
+42;Tijeras A prueba de agua;32608
+43;Tijeras Borrado fácil;94176
+44;Block de notas Resistente al desgaste;94251
+45;Papel de carta Libre de ácido;100278
+46;Calculadora Suave al tacto;84024
+47;Cartuchos de tinta Ligero;99450
+48;Cartulina Brilloso;96139
+49;Corrector líquido Suave al tacto;49547
+50;Papelera Suave al tacto;78697
+51;Calculadora Económico;93257
+52;Agenda Ligero;42422
+53;Block de notas Colores vibrantes;31541
+54;Tiza Borrado fácil;57024
+55;Cartulina Ligero;16163
+56;Portaminas Reciclable;69492
+57;Tijeras Sin olor;8778
+58;Clips Fácil de transportar;12333
+59;Clasificadores Suave al tacto;48396
+60;Agenda Colores vibrantes;92359
+61;Papel Multifuncional;80575
+62;Agenda Multifuncional;94084
+63;Pluma Sin olor;53957

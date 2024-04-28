@@ -1,0 +1,5 @@
+Conclusión
+
+Por medio de la realización de este proyecto, se pudo aprender mucho con respecto a las buenas practicas de codificación, a comentar el código trabajado y a tener un orden de dicho código que sea fácil de leer, esto ayuda para nuestra vida laboral, ya que comúnmente el desarrollo de software se realiza en equipos, por tal razón la documentación de código es fundamental para entender lo que ha desarrollado cada miembro.
+
+Se concluye que el proyecto tenía su complejidad, ordenar los datos llevó su tiempo porque se debían leer los archivos planos generados aleatoriamente y a partir de dicha lectura sacar las columnas que eran de interés, para más tarde aplicarle el ordenamiento solicitado. Adicional, se pudo hacer uso de conceptos como los arreglos de listas, mapping de datos para ir agregándolos a un diccionario y poder leer la data, para finalmente escribirla en los informes generados.
